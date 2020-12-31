@@ -1,37 +1,25 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import {Nav, Navbar} from 'react-bootstrap'
 import './NavTabs.css'
 
-function NavTabs() {
+function NavTabs(props) {
+  const {location}=props;
   return (
-      <ul className="nav nav-tabs nav-bar">
-        <li className="nav-item">
-          <NavLink to="/art-gallery" exact className="nav-link nav-text">
-            Home
-        </NavLink>
-        </li>
-        <li className="nav-item">
-          <NavLink to="/about" className="nav-link nav-text">
-            About Artist
-        </NavLink>
-        </li>
-        <li className="nav-item">
-          <NavLink to="/gallery" className="nav-link nav-text">
-            Gallery
-        </NavLink>
-        </li>
-        <li className="nav-item">
-          <NavLink to="/contact" className="nav-link nav-text">
-            Contact
-        </NavLink>
-        </li>
-        <li className="nav-item">
-          <NavLink to="/checkout" className="nav-link nav-text">
-            Checkout
-        </NavLink>
-        </li>
-      </ul>
+<Navbar className="nav-bar" expand="lg">
+  <Navbar.Brand className="nav-text" href="/art-gallery">Home</Navbar.Brand>
+  <Navbar.Toggle aria-controls="basic-navbar-nav" />
+  <Navbar.Collapse id="basic-navbar-nav">
+    <Nav className="mr-auto" activeKey={location.pathname}>
+      <Nav.Link className="nav-text" href="/about">About Artist</Nav.Link>
+      <Nav.Link className="nav-text" href="/gallery">Gallery</Nav.Link>
+      <Nav.Link className="nav-text" href="/contact">Contact</Nav.Link>
+      <Nav.Link className="nav-text" href="/checkout">Checkout</Nav.Link>
+    </Nav>
+  </Navbar.Collapse>
+</Navbar>
   );
 }
 
 export default NavTabs;
+

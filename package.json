@@ -1,6 +1,6 @@
 {
-  "homepage": "http://j-favorito.github.io/react-portfolio",
-  "name": "react-portfolio",
+  "homepage": "http://j-favorito.github.io/art-gallery",
+  "name": "art-gallery",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
