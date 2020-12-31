@@ -1,8 +1,7 @@
-import React from 'react';
-import './About.css';
+import React from "react";
 import { Container, Row, Col } from 'react-bootstrap'
 
-function About() {
+function Checkout() {
   return (
     <div>
         <Container>
@@ -11,4 +10,4 @@ function About() {
   );
 }
 
-export default About;
+export default Checkout;

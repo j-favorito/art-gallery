@@ -6,28 +6,28 @@ function NavTabs() {
   return (
       <ul className="nav nav-tabs nav-bar">
         <li className="nav-item">
-          <NavLink to="/react-portfolio" exact className="nav-link nav-text">
-            About Joe
+          <NavLink to="/art-gallery" exact className="nav-link nav-text">
+            Home
         </NavLink>
         </li>
         <li className="nav-item">
-          <NavLink to="/education" className="nav-link nav-text">
-            Education
+          <NavLink to="/about" className="nav-link nav-text">
+            About Artist
         </NavLink>
         </li>
         <li className="nav-item">
-          <NavLink to="/certificate" className="nav-link nav-text">
-            Certificate
-        </NavLink>
-        </li>
-        <li className="nav-item">
-          <NavLink to="/projects" className="nav-link nav-text">
-            Projects
+          <NavLink to="/gallery" className="nav-link nav-text">
+            Gallery
         </NavLink>
         </li>
         <li className="nav-item">
           <NavLink to="/contact" className="nav-link nav-text">
             Contact
+        </NavLink>
+        </li>
+        <li className="nav-item">
+          <NavLink to="/checkout" className="nav-link nav-text">
+            Checkout
         </NavLink>
         </li>
       </ul>

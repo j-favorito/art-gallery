@@ -1,14 +1,16 @@
-import React from 'react';
-import './About.css';
+import React from "react";
+import "./Home.css";
 import { Container, Row, Col } from 'react-bootstrap'
 
-function About() {
+function Home() {
   return (
     <div>
+      <center>
         <Container>
         </Container>
+      </center>
     </div>
   );
 }
 
-export default About;
+export default Home;
