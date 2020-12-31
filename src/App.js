@@ -23,11 +23,11 @@ function App() {
       <div className="background-image" style={{ ...background }}>
         <NavbarRouter />
         <Fragment>
-          <Route path="/art-gallery" exact component={Home} />
-          <Route path="/about" exact component={About} />
-          <Route path="/gallery" exact component={Gallery} />
-          <Route path="/contact" exact component={Contact} />
-          <Route path="/checkout" exact component={Checkout} />
+          <Route exact path="/art-gallery" component={Home} />
+          <Route path="/about" component={About} />
+          <Route path="/gallery" component={Gallery} />
+          <Route path="/contact" component={Contact} />
+          <Route path="/checkout" component={Checkout} />
         </Fragment>
       </div>
     </Router>
