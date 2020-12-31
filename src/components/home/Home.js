@@ -7,6 +7,7 @@ function Home() {
     <div>
       <center>
         <Container>
+          <h3>test text</h3>
         </Container>
       </center>
     </div>
