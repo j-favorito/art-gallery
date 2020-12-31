@@ -24,10 +24,10 @@ function App() {
         <NavbarRouter />
         <Fragment>
           <Route exact path="/art-gallery" component={Home} />
-          <Route path="/about" component={About} />
-          <Route path="/gallery" component={Gallery} />
-          <Route path="/contact" component={Contact} />
-          <Route path="/checkout" component={Checkout} />
+          <Route exact path="/about" component={About} />
+          <Route exact path="/gallery" component={Gallery} />
+          <Route exact path="/contact" component={Contact} />
+          <Route exact path="/checkout" component={Checkout} />
         </Fragment>
       </div>
     </Router>
