@@ -3,7 +3,7 @@ import About from './components/about/About';
 import Contact from './components/contact/Contact';
 import Home from './components/home/Home';
 import Gallery from './components/gallery/Gallery';
-import { HashRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import NavTabs from './components/navtabs/NavTabs';
 import Checkout from './components/checkout/Checkout'
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -19,20 +19,14 @@ const NavbarRouter = withRouter(NavTabs);
 
 function App() {
   return (
-    <Router getUserConfirmation={(message, callback) => {
-    // this is the default behavior
-    const allowTransition = window.confirm(message);
-    callback(allowTransition);
-  }}>
+    <Router>
       <div className="background-image" style={{ ...background }}>
-        <NavbarRouter />
-        <Switch>
-          <Route exact path="/art-gallery" component={Home} />
-          <Route exact path={process.env.PUBLIC_URL + '/about'} component={About} />
-          <Route exact path={process.env.PUBLIC_URL + '/gallery'} component={Gallery} />
-          <Route exact path={process.env.PUBLIC_URL + '/contact'} component={Contact} />
-          <Route exact path={process.env.PUBLIC_URL + '/checkout'} component={Checkout} />
-        </Switch>
+        <NavbarRouter basename={process.env.PUBLIC_URL} />
+          <Route path="/art-gallery" component={Home} />
+          <Route path='/about' component={About} />
+          <Route path='/gallery' component={Gallery} />
+          <Route path='/contact' component={Contact} />
+          <Route path='/checkout' component={Checkout} />
       </div>
     </Router>
   );
