@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/art-gallery/art-gallery/static/css/main.127166e2.chunk.css",
-    "main.js": "/art-gallery/art-gallery/static/js/main.712cfb7a.chunk.js",
-    "main.js.map": "/art-gallery/art-gallery/static/js/main.712cfb7a.chunk.js.map",
-    "runtime-main.js": "/art-gallery/art-gallery/static/js/runtime-main.48cc4524.js",
-    "runtime-main.js.map": "/art-gallery/art-gallery/static/js/runtime-main.48cc4524.js.map",
-    "static/css/2.20aa2d7b.chunk.css": "/art-gallery/art-gallery/static/css/2.20aa2d7b.chunk.css",
-    "static/js/2.336e3b3a.chunk.js": "/art-gallery/art-gallery/static/js/2.336e3b3a.chunk.js",
-    "static/js/2.336e3b3a.chunk.js.map": "/art-gallery/art-gallery/static/js/2.336e3b3a.chunk.js.map",
-    "index.html": "/art-gallery/art-gallery/index.html",
-    "static/css/2.20aa2d7b.chunk.css.map": "/art-gallery/art-gallery/static/css/2.20aa2d7b.chunk.css.map",
-    "static/css/main.127166e2.chunk.css.map": "/art-gallery/art-gallery/static/css/main.127166e2.chunk.css.map",
-    "static/js/2.336e3b3a.chunk.js.LICENSE.txt": "/art-gallery/art-gallery/static/js/2.336e3b3a.chunk.js.LICENSE.txt",
-    "static/media/purp-background.dc3eb647.jpg": "/art-gallery/art-gallery/static/media/purp-background.dc3eb647.jpg"
+    "main.css": "/art-gallery/static/css/main.127166e2.chunk.css",
+    "main.js": "/art-gallery/static/js/main.f86c5bcc.chunk.js",
+    "main.js.map": "/art-gallery/static/js/main.f86c5bcc.chunk.js.map",
+    "runtime-main.js": "/art-gallery/static/js/runtime-main.801aff38.js",
+    "runtime-main.js.map": "/art-gallery/static/js/runtime-main.801aff38.js.map",
+    "static/css/2.20aa2d7b.chunk.css": "/art-gallery/static/css/2.20aa2d7b.chunk.css",
+    "static/js/2.336e3b3a.chunk.js": "/art-gallery/static/js/2.336e3b3a.chunk.js",
+    "static/js/2.336e3b3a.chunk.js.map": "/art-gallery/static/js/2.336e3b3a.chunk.js.map",
+    "index.html": "/art-gallery/index.html",
+    "static/css/2.20aa2d7b.chunk.css.map": "/art-gallery/static/css/2.20aa2d7b.chunk.css.map",
+    "static/css/main.127166e2.chunk.css.map": "/art-gallery/static/css/main.127166e2.chunk.css.map",
+    "static/js/2.336e3b3a.chunk.js.LICENSE.txt": "/art-gallery/static/js/2.336e3b3a.chunk.js.LICENSE.txt",
+    "static/media/purp-background.dc3eb647.jpg": "/art-gallery/static/media/purp-background.dc3eb647.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.48cc4524.js",
+    "static/js/runtime-main.801aff38.js",
     "static/css/2.20aa2d7b.chunk.css",
     "static/js/2.336e3b3a.chunk.js",
     "static/css/main.127166e2.chunk.css",
-    "static/js/main.712cfb7a.chunk.js"
+    "static/js/main.f86c5bcc.chunk.js"
   ]
 }
