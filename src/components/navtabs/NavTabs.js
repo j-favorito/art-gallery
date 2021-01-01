@@ -7,7 +7,7 @@ function NavTabs(props) {
   const {location}=props;
   return (
 <Navbar className="nav-bar" expand="lg">
-  <Navbar.Brand className="nav-text" href={process.env.PUBLIC_URL + '/art-gallery'}>Home</Navbar.Brand>
+  <Navbar.Brand className="nav-text" href="/art-gallery">Home</Navbar.Brand>
   <Navbar.Toggle aria-controls="basic-navbar-nav" />
   <Navbar.Collapse id="basic-navbar-nav">
     <Nav className="mr-auto" activeKey={location.pathname}>
