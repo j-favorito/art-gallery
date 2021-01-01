@@ -3,7 +3,7 @@ import About from './components/about/About';
 import Contact from './components/contact/Contact';
 import Home from './components/home/Home';
 import Gallery from './components/gallery/Gallery';
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { HashRouter as Router, Route, Switch } from "react-router-dom";
 import NavTabs from './components/navtabs/NavTabs';
 import Checkout from './components/checkout/Checkout'
 import 'bootstrap/dist/css/bootstrap.min.css';
