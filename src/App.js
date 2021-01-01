@@ -22,11 +22,13 @@ function App() {
     <Router>
       <div className="background-image" style={{ ...background }}>
         <NavbarRouter />
+        <Fragment>
           <Route exact path="/art-gallery" component={Home} />
           <Route exact path="/about" component={About} />
           <Route exact path="/gallery" component={Gallery} />
           <Route exact path="/contact" component={Contact} />
           <Route exact path="/checkout" component={Checkout} />
+        </Fragment>
       </div>
     </Router>
   );
