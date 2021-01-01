@@ -26,11 +26,11 @@ function App() {
       <div className="background-image" style={{ ...background }}>
         <NavbarRouter />
         <Switch>
-          <Route exact path="/art-gallery" component={Home} />
-          <Route exact path="/about" component={About} />
-          <Route exact path="/gallery" component={Gallery} />
-          <Route exact path="/contact" component={Contact} />
-          <Route exact path="/checkout" component={Checkout} />
+          <Route exact path={process.env.PUBLIC_URL + '/art-gallery'} component={Home} />
+          <Route exact path={process.env.PUBLIC_URL + '/about'} component={About} />
+          <Route exact path={process.env.PUBLIC_URL + '/gallery'} component={Gallery} />
+          <Route exact path={process.env.PUBLIC_URL + '/contact'} component={Contact} />
+          <Route exact path={process.env.PUBLIC_URL + '/checkout'} component={Checkout} />
         </Switch>
       </div>
     </Router>
