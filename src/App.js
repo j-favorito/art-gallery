@@ -19,7 +19,10 @@ const NavbarRouter = withRouter(NavTabs);
 
 function App() {
   return (
-    <Router>
+    <Router   getUserConfirmation={(message, callback) => {
+      const allowTransition = window.confirm(message);
+      callback(allowTransition);
+    }}>
       <div className="background-image" style={{ ...background }}>
         <NavbarRouter />
         <Switch>

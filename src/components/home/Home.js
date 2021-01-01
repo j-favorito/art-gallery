@@ -7,7 +7,7 @@ function Home() {
     <div>
       <center>
         <Container>
-          <h3>test text 3</h3>
+          <h3>test text 4</h3>
         </Container>
       </center>
     </div>
